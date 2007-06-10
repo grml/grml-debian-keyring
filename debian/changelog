@@ -1,0 +1,6 @@
+grml-debian-keyring (2007.06.10) grml-testing; urgency=low
+
+  * Initial release
+
+ -- Alexander Wirt <formorer@grml.org>  Sun, 10 Jun 2007 09:52:22 +0200
+
