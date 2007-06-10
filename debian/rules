@@ -36,6 +36,7 @@ binary-indep: checkroot
 
 	$(install_dir) debian/tmp/usr/share/doc/grml-debian-keyring/
 	$(install_file) debian/changelog debian/tmp/usr/share/doc/grml-debian-keyring/changelog
+	gzip -9 debian/tmp/usr/share/doc/grml-debian-keyring/changelog
 	$(install_file) debian/copyright debian/tmp/usr/share/doc/grml-debian-keyring/
 
 	dpkg-gencontrol -pgrml-debian-keyring -isp
