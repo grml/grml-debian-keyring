@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Alexander Wirt <formorer@grml.org>
 Bugs: mailto:formorer@grml.org
 Standards-Version: 3.7.2
+Homepage: http://hg.grml.org/grml-debian-keyring
 XS-Vcs-hg: http://hg.grml.org/grml-debian-keyring
 XS-Vcs-Browser: http://hg.grml.org/grml-debian-kexring
 
