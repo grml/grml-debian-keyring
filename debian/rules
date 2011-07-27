@@ -39,6 +39,9 @@ binary-indep: checkroot
 	gzip -9 debian/tmp/usr/share/doc/grml-debian-keyring/changelog
 	$(install_file) debian/copyright debian/tmp/usr/share/doc/grml-debian-keyring/
 
+	$(install_dir) debian/tmp/etc/dpkg/origins/
+	$(install_file) origins/Grml debian/tmp/etc/dpkg/origins/
+
 	dpkg-gencontrol -pgrml-debian-keyring -isp
 	chown -R root.root debian/tmp
 	chmod -R go=rX debian/tmp
