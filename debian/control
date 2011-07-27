@@ -1,12 +1,13 @@
-Source:grml-debian-keyring
+Source: grml-debian-keyring
 Section: misc
 Priority: optional
 Maintainer: Alexander Wirt <formorer@grml.org>
-Bugs: mailto:formorer@grml.org
 Standards-Version: 3.7.2
-Homepage: http://hg.grml.org/grml-debian-keyring
-XS-Vcs-hg: http://hg.grml.org/grml-debian-keyring
-XS-Vcs-Browser: http://hg.grml.org/grml-debian-kexring
+Homepage: http://git.grml.org/?p=grml-debian-keyring.git
+Vcs-git: git://git.grml.org/grml-debian-keyring.git
+Vcs-Browser: http://git.grml.org/?p=grml-debian-keyring.git
+Origin: Grml
+Bugs: mailto:bugs@grml.org
 
 Package: grml-debian-keyring
 Priority: important
