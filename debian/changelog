@@ -1,3 +1,21 @@
+grml-debian-keyring (2011.11.26) grml-testing; urgency=low
+
+  [ Alexander Wirt ]
+  * [de562a1] Added tag 2007.06.10 for changeset 2be0ee8b7134
+  * [00e706f] compress changelog
+  * [1a873f1] Add prio and XS-Vcs header
+
+  [ Michael Prokop ]
+  * [c1297e8] Apply patch-bomb by ft, thanks a lot
+  * [ac68232] drop .hgtags file
+
+  [ Christian Hofstaedtler ]
+  * [d26ce53] Update debian/control headers Homepage, Vcs-*, Origin, Bugs
+  * [9e62f4c] install Grml origin for dpkg
+  * [b2faf3c] Switch to debhelper, verify keyring md5sums during build
+
+ -- Michael Prokop <mika@grml.org>  Sat, 26 Nov 2011 18:48:09 +0100
+
 grml-debian-keyring (2007.06.10) grml-testing; urgency=low
 
   * Initial release
