@@ -1,12 +1,1 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
-24c87ef79563fad1f32d7356172ff890  keyrings/grml-debian-keyring.gpg
-d41d8cd98f00b204e9800998ecf8427e  keyrings/grml-debian-removed-keys.gpg
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.6 (GNU/Linux)
-
-iD8DBQFGa7P201u8mbx9AgoRAoNDAJoDiNoi08MX6tb7oVCefT9X8t+3/wCfYTA6
-iIQHDhQf3+cZzYeS76OEmSA=
-=QZ3s
------END PGP SIGNATURE-----
+24c87ef79563fad1f32d7356172ff890  keyrings/grml-archive.gpg

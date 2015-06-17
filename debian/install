@@ -1,2 +1,2 @@
-keyrings usr/share
+keyrings/grml-archive.gpg etc/apt/trusted.gpg.d
 origins etc/dpkg
