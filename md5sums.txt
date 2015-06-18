@@ -1,1 +1,21 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 24c87ef79563fad1f32d7356172ff890  keyrings/grml-archive.gpg
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBCAAGBQJVgqDDAAoJEJaoeHK36jc3FTMP/jbcJ+ZQ2LiU/eMLuCavEo1o
+OCmu/VBeoqiW4BNrevxwVeH+KqjKzCABdht+IQAt2RA2UWnEcx8guM8tc3Ti9njz
+lhgtD0zQyOhtV0AJHen82gunGhh6Ys+QnOo4mMJ/15XeLDCs+urXfTKdy9pGuPdS
+oCKTaqhJY9ysMG/w8QBTJpM7UdGxRHVepL2KzLqmZDX3fe1astIoD1ATZt5U9c/V
+U7oExMFvx6NpHui5LnaEx8wqgalOIDucqE6l6k8HAXlp6K9Yb/b0bL+7Od1n0H3I
+fxjk5znEFTv+kyEVBxl1WP24jt9nZwjWBQOI9tec/mdAANQy+GahirH/rBtA0FdY
+3G83HQEZgUe7G8HFJjxJHWhfIYAMnWlIDU8wnh6Q2cE1c+YneuodzaAKlutD1yXt
++XLIqekNcWqrQOPaFDfJc2rWkRuFF3LnHfcwYrhM/bec/apEny8jaxvmyDhE19iX
+QU8nYs+UViLZkkHKF+uatj1vAi9uqToZRYuq0V7hapsvsqYeaW1LO3JtAQBrlnqd
+FAv+pI8VNXcGdLy61PWWAf25Z8pTrgRuckTfDs/Ft5+wqxQ5wELqIKhXOjrmOazV
+PC8reyeoqTnyHCq+07siEy5dhpy7nw6gg2KMNYffhEPUt8YJW8BuvjSHsWIE6Uky
+B1F1DWFEA/bay7niCyGQ
+=UCSM
+-----END PGP SIGNATURE-----
