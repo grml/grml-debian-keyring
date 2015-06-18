@@ -1,3 +1,24 @@
+grml-debian-keyring (2015.06.18) grml-testing; urgency=medium
+
+  [ Sebastian Boehm ]
+  * [b062ca1] Fix lintian warning: maintainer-script-ignores-errors
+  * [7d74b92] Fix lintian warning: maintainer-script-lacks-debhelper-token
+  * [8ab2dae] Fix lintian warning: debhelper-but-no-misc-depends
+  * [857f54a] Bump Standards-Version
+  * [24e7f60] Remove obsolete debian/files
+  * [c0ea3fe] Install archive key to /etc/apt/trusted.gpg.d/
+
+  [ Michael Prokop ]
+  * [58e21e9] GPG clearsign md5sums.txt with my key (ID 0xB7EA3737)
+  * [bc53937] Replace GRML with Grml in package description
+  * [4a6d20e] Execute wrap-and-sort -a on debian/
+  * [361affd] origins/Grml: adjust description and fix mail address
+  * [1f7b626] Drop unused /usr/share/keyrings
+  * [05e88ee] Force gzip compression for lenny support. Thanks to
+    Christoph Berg <myon@debian.org> for the hint
+
+ -- Michael Prokop <mika@grml.org>  Thu, 18 Jun 2015 13:16:02 +0200
+
 grml-debian-keyring (2011.11.26) grml-testing; urgency=low
 
   [ Alexander Wirt ]
