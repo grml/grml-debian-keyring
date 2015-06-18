@@ -15,5 +15,5 @@ Priority: important
 Architecture: all
 Depends: ${misc:Depends}, gnupg (>= 1.0.6-4)
 Description: GnuPG archive key of the grml.org repository
- The GRML repository digitally signs its Release files. This package
+ The Grml repository digitally signs its Release files. This package
  contains the repository key used for that.
