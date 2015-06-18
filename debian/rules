@@ -4,5 +4,10 @@
 override_dh_auto_build:
 	md5sum -c md5sums.txt
 
+# package should work also on older releases like lenny, which
+# don't have support for xz yet
+override_dh_builddeb:
+	dh_builddeb -- -Zgzip
+
 %:
 	dh $@
