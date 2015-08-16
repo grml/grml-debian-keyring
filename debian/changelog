@@ -1,3 +1,11 @@
+grml-debian-keyring (2015.08.16) grml-testing; urgency=medium
+
+  The "DebConf15" release
+
+  * [487c252] Add new signing key for Grml repositories
+
+ -- Michael Prokop <mika@grml.org>  Sun, 16 Aug 2015 23:20:42 +0200
+
 grml-debian-keyring (2015.06.18) grml-testing; urgency=medium
 
   [ Sebastian Boehm ]
