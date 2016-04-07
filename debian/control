@@ -5,7 +5,7 @@ Maintainer: Alexander Wirt <formorer@grml.org>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 8)
 Homepage: http://git.grml.org/?p=grml-debian-keyring.git
-Vcs-git: git://git.grml.org/grml-debian-keyring.git
+Vcs-git: https://github.com/grml/grml-debian-keyring.git
 Vcs-Browser: http://git.grml.org/?p=grml-debian-keyring.git
 Origin: Grml
 Bugs: mailto:bugs@grml.org
