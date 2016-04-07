@@ -1,3 +1,12 @@
+grml-debian-keyring (2016.04.07) grml-testing; urgency=medium
+
+  * [85539c5] Use github repository mirror in Vcs-git header
+  * [6a6721a] Use Grml Team in maintainer field and add formorer and
+    myself as uploaders
+  * [ce8bcd3] Bump Standards-Version to 3.9.7
+
+ -- Michael Prokop <mika@grml.org>  Thu, 07 Apr 2016 15:21:52 +0200
+
 grml-debian-keyring (2015.08.16) grml-testing; urgency=medium
 
   The "DebConf15" release
