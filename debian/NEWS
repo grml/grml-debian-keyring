@@ -1,0 +1,40 @@
+grml-debian-keyring (2018.06.01) grml-testing; urgency=medium
+
+  This update of the grml-archive-keyring package doesn't include
+  any changes within the keyring file itself, but in the way where
+  the key is installed to.
+  https://wiki.debian.org/DebianRepository/UseThirdParty provides
+  more general documentation about the setup.
+
+  Please be aware that this update intentionally does *NOT* remove
+  /etc/apt/trusted.gpg.d/grml-archive.gpg from your system, while
+  previous versions of this package shipped the file.  We try to
+  avoid breaking existing installations which use the Grml
+  repository (having /etc/apt/trusted.gpg.d/grml-archive.gpg
+  installed from the grml-debian-keyring Debian package, while a
+  file like /etc/apt/trusted.gpg.d/grml.gpg was manually installed
+  but removed later on).
+
+  On stretch and newer:
+
+  Unless you manually installed /etc/apt/trusted.gpg.d/grml.gpg:
+
+  If you're using Debian/stretch or newer, starting with this
+  version of the grml-archive-keyring package you can use a
+  /etc/apt/sources.list.d/grml.sources setup like:
+
+    Types: deb deb-src
+    URIs: http://deb.grml.org/
+    Suites: grml-stable grml-testing
+    Architectures: i386 amd64
+    Components: main
+    Signed-By: /usr/share/keyrings/grml-archive-keyring.gpg
+
+  If you prefer the common sources.list setup, you can instead use
+  a  /etc/apt/sources.list.d/grml.list like
+  (assuming you have apt-transport-https support, otherwise use http instead of https)::
+
+    deb [signed-by=/usr/share/keyrings/grml-archive-keyring.gpg] https://deb.grml.org/ grml-stable  main
+    deb [signed-by=/usr/share/keyrings/grml-archive-keyring.gpg] https://deb.grml.org/ grml-testing main
+
+ -- Michael Prokop <mika@grml.org>  Sat, 26 May 2018 14:55:24 +0200
