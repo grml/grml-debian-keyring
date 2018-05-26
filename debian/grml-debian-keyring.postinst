@@ -1,0 +1,31 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+  configure)
+    if ! [ -r /etc/debian_version ] ; then
+      echo "Warning: /etc/debian_version couldn't be accessed, ignoring version checks."
+    else
+      case "$(cat /etc/debian_version)" in
+	7.*|8.*)
+	  echo "Identified Debian release wheezy or jessie, applying workaround."
+	  echo "Creating symlink /etc/apt/trusted.gpg.d/grml-archive-keyring.gpg"
+	  ln -sf /usr/share/keyrings/grml-archive-keyring.gpg /etc/apt/trusted.gpg.d/grml-archive-keyring.gpg
+	  echo "See https://wiki.debian.org/DebianRepository/UseThirdParty for details."
+	  ;;
+      esac
+    fi
+  update-rc.d ngcp-license-client remove
+    ;;
+  abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+  *)
+    echo "postinst called with unknown argument '$1'" >&2
+    exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
