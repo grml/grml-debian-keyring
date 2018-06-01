@@ -1,3 +1,9 @@
+grml-debian-keyring (2018.06.02) grml-testing; urgency=medium
+
+  * [27aa341] Improve debian/NEWS wording
+
+ -- Michael Prokop <mika@grml.org>  Fri, 01 Jun 2018 17:16:38 +0200
+
 grml-debian-keyring (2018.06.01) grml-testing; urgency=medium
 
   [ Antoine Beaupré ]
