@@ -1,4 +1,4 @@
-grml-debian-keyring (2018.06.01) grml-testing; urgency=medium
+grml-debian-keyring (2018.06.02) grml-testing; urgency=medium
 
   This update of the grml-archive-keyring package doesn't include
   any changes within the keyring file itself, but in the way where
@@ -14,10 +14,6 @@ grml-debian-keyring (2018.06.01) grml-testing; urgency=medium
   installed from the grml-debian-keyring Debian package, while a
   file like /etc/apt/trusted.gpg.d/grml.gpg was manually installed
   but removed later on).
-
-  On stretch and newer:
-
-  Unless you manually installed /etc/apt/trusted.gpg.d/grml.gpg:
 
   If you're using Debian/stretch or newer, starting with this
   version of the grml-archive-keyring package you can use a
@@ -37,4 +33,4 @@ grml-debian-keyring (2018.06.01) grml-testing; urgency=medium
     deb [signed-by=/usr/share/keyrings/grml-archive-keyring.gpg] https://deb.grml.org/ grml-stable  main
     deb [signed-by=/usr/share/keyrings/grml-archive-keyring.gpg] https://deb.grml.org/ grml-testing main
 
- -- Michael Prokop <mika@grml.org>  Sat, 26 May 2018 14:55:24 +0200
+ -- Michael Prokop <mika@grml.org>  Fri, 01 Jun 2018 17:14:28 +0200
