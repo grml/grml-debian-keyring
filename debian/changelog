@@ -1,3 +1,19 @@
+grml-debian-keyring (2018.06.01) grml-testing; urgency=medium
+
+  [ Antoine Beaupré ]
+  * [1323d48] move archive keyring out of global trust path
+
+  [ Michael Prokop ]
+  * [dabedf8] Update md5sums.txt for new filename of keyring file
+  * [0f5d203] Provide postinst script for support of older Debian releases
+  * [323d5da] Provide debian/NEWS for recent changes with new package
+    version
+  * [894fea9] Bump Standards-Version to 4.1.4
+  * [521a2e2] Build-Depend on debhelper >= 9~
+  * [e10eb72] Bump debian/compat to 9
+
+ -- Michael Prokop <mika@grml.org>  Fri, 01 Jun 2018 15:47:39 +0200
+
 grml-debian-keyring (2016.04.07) grml-testing; urgency=medium
 
   * [85539c5] Use github repository mirror in Vcs-git header
