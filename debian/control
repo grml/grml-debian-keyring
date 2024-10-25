@@ -6,9 +6,9 @@ Uploaders: Alexander Wirt <formorer@debian.org>,
            Michael Prokop <mika@debian.org>,
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9~)
-Homepage: http://git.grml.org/?p=grml-debian-keyring.git
-Vcs-git: https://github.com/grml/grml-debian-keyring.git
-Vcs-Browser: http://git.grml.org/?p=grml-debian-keyring.git
+Homepage: https://github.com/grml/grml-debian-keyring
+Vcs-Git: https://github.com/grml/grml-debian-keyring.git
+Vcs-Browser: https://github.com/grml/grml-debian-keyring
 Origin: Grml
 Bugs: mailto:bugs@grml.org
 
