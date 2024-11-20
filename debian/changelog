@@ -1,3 +1,16 @@
+grml-debian-keyring (2024.11.20) grml-testing; urgency=medium
+
+  [ Chris Hofstaedtler ]
+  * [b8bc5c5] debian: update Vcs-Git and Vcs-Browser
+
+  [ Michael Prokop ]
+  * [49fd756] Update Uploaders field
+  * [5a2e02d] debian: Bump Standards-Version to 4.7.0
+  * [67bd03b] Bump compat version to 10 and raise debhelper Build-Depends
+    accordingly
+
+ -- Michael Prokop <mika@grml.org>  Wed, 20 Nov 2024 12:41:37 +0100
+
 grml-debian-keyring (2018.06.02) grml-testing; urgency=medium
 
   * [27aa341] Improve debian/NEWS wording
