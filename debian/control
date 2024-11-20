@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Grml Team <team@grml.org>
 Uploaders: Michael Prokop <mika@grml.org>,
-Standards-Version: 4.1.4
+Standards-Version: 4.7.0
 Build-Depends: debhelper (>= 9~)
 Homepage: https://github.com/grml/grml-debian-keyring
 Vcs-Git: https://github.com/grml/grml-debian-keyring.git
