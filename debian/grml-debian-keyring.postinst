@@ -16,7 +16,6 @@ case "$1" in
 	  ;;
       esac
     fi
-  update-rc.d ngcp-license-client remove
     ;;
   abort-upgrade|abort-remove|abort-deconfigure)
     ;;
