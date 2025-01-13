@@ -8,6 +8,7 @@ Uploaders:
 Standards-Version: 4.7.0
 Build-Depends:
  debhelper-compat (= 13),
+ sqop | rsop | gosop | pgpainless-cli,
 Homepage: https://github.com/grml/grml-keyring
 Vcs-Git: https://github.com/grml/grml-keyring.git
 Vcs-Browser: https://github.com/grml/grml-keyring
