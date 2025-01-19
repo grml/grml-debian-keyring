@@ -1,4 +1,4 @@
-Source: grml-debian-keyring
+Source: grml-keyring
 Section: misc
 Priority: optional
 Maintainer: Grml Team <team@grml.org>
@@ -6,17 +6,28 @@ Uploaders: Michael Prokop <mika@grml.org>,
 Standards-Version: 4.7.0
 Build-Depends:
  debhelper (>= 10~),
-Homepage: https://github.com/grml/grml-debian-keyring
-Vcs-Git: https://github.com/grml/grml-debian-keyring.git
-Vcs-Browser: https://github.com/grml/grml-debian-keyring
+Homepage: https://github.com/grml/grml-keyring
+Vcs-Git: https://github.com/grml/grml-keyring.git
+Vcs-Browser: https://github.com/grml/grml-keyring
 Origin: Grml
 Bugs: mailto:bugs@grml.org
 
-Package: grml-debian-keyring
+Package: grml-keyring
 Priority: important
 Architecture: all
 Depends: gnupg (>= 1.0.6-4),
          ${misc:Depends}
-Description: GnuPG archive key of the grml.org repository
- The Grml repository digitally signs its Release files. This package
+Replaces: grml-debian-keyring (<< 2024.12.08)
+Provides: grml-debian-keyring
+Breaks: grml-debian-keyring (<< 2024.12.08)
+Description: GnuPG keys used by the Grml project
+ The Grml repository digitally signs its archive Release files. This package
  contains the repository key used for that.
+
+Package: grml-debian-keyring
+Section: oldlibs
+Architecture: all
+Depends: grml-keyring,
+         ${misc:Depends}
+Description: GnuPG keys used by the Grml project (transitional package)
+ This is a transitional package, it can be safely removed.
