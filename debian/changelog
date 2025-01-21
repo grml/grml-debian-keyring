@@ -1,3 +1,15 @@
+grml-keyring (2024.12.08) grml-testing; urgency=medium
+
+  [ Chris Hofstaedtler ]
+  * [5a1775d] Rename package to grml-keyring
+  * [0c9f041] keyring: remove DSA signing key
+  * [a58366b] NEWS: remove NEWS entry from 2018
+
+  [ Michael Prokop ]
+  * [49f4115] Update md5sums.txt after signing key changes
+
+ -- Chris Hofstaedtler <ch@grml.org>  Tue, 21 Jan 2025 09:25:08 +0100
+
 grml-debian-keyring (2024.12.07) grml-testing; urgency=medium
 
   * [168d872] Drop stray line from postinst
