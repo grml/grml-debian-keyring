@@ -11,8 +11,6 @@ Build-Depends:
 Homepage: https://github.com/grml/grml-keyring
 Vcs-Git: https://github.com/grml/grml-keyring.git
 Vcs-Browser: https://github.com/grml/grml-keyring
-Origin: Grml
-Bugs: mailto:bugs@grml.org
 X-Style: black
 
 Package: grml-keyring
