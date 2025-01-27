@@ -1,3 +1,14 @@
+grml-keyring (2025.01.27) unstable; urgency=medium
+
+  * [20df3e5] d/copyright: clarify situation
+  * [9f40690] debian: set X-Style: black and apply debputy reformat
+  * [9d1c765] d/control: add myself to Uploaders
+  * [32df071] d/control: drop transitional grml-debian-keyring package
+  * [f83f8de] d/control: prepare for Debian main
+  * Set distribution to "unstable", for Debian main.
+
+ -- Chris Hofstaedtler <ch@grml.org>  Mon, 27 Jan 2025 14:18:26 +0100
+
 grml-keyring (2024.12.08) grml-testing; urgency=medium
 
   [ Chris Hofstaedtler ]
