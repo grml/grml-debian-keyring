@@ -30,12 +30,3 @@ Breaks:
 Description: GnuPG keys used by the Grml project
  The Grml repository digitally signs its archive Release files. This package
  contains the repository key used for that.
-
-Package: grml-debian-keyring
-Section: oldlibs
-Architecture: all
-Depends:
- grml-keyring,
- ${misc:Depends},
-Description: GnuPG keys used by the Grml project (transitional package)
- This is a transitional package, it can be safely removed.
