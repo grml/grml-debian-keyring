@@ -1,3 +1,10 @@
+grml-keyring (2025.01.30) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [3f629f2] d/control: drop unneeded gnupg from Depends
+
+ -- Chris Hofstaedtler <ch@grml.org>  Thu, 30 Jan 2025 17:26:32 +0100
+
 grml-keyring (2025.01.27) unstable; urgency=medium
 
   * [20df3e5] d/copyright: clarify situation
