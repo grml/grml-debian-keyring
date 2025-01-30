@@ -17,7 +17,6 @@ Package: grml-keyring
 Priority: important
 Architecture: all
 Depends:
- gnupg (>= 1.0.6-4),
  ${misc:Depends},
 Replaces:
  grml-debian-keyring (<< 2024.12.08),
