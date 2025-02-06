@@ -7,7 +7,7 @@ Uploaders:
  Chris Hofstaedtler <ch@grml.org>,
 Standards-Version: 4.7.0
 Build-Depends:
- debhelper (>= 10~),
+ debhelper-compat (= 13),
 Homepage: https://github.com/grml/grml-keyring
 Vcs-Git: https://github.com/grml/grml-keyring.git
 Vcs-Browser: https://github.com/grml/grml-keyring
