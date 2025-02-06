@@ -7,7 +7,7 @@ SOP = $(firstword $(foreach cmd,$(SOP_IMPL),$(wildcard /usr/bin/$(cmd))) false)
 SIGNER_KEYRING = /usr/share/keyrings/debian-keyring.gpg
 ARCHIVE_CERTS = grml-archive-automatic-*.pgp
 ARCHIVE_CERTS_SIGS = $(wildcard keyrings/*.pgp.asc)
-ARCHIVE_KEYRING = grml-archive-keyring.gpg
+ARCHIVE_KEYRING = grml-archive-keyring.pgp
 
 override_dh_auto_build: $(ARCHIVE_CERTS_SIGS)
 	@echo $(ARCHIVE_CERTS_SIGS)

@@ -1,2 +1,2 @@
-keyrings/grml-archive-keyring.gpg usr/share/keyrings
+keyrings/grml-archive-keyring.pgp usr/share/keyrings
 origins etc/dpkg
