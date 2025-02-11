@@ -1,13 +1,28 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-override_dh_auto_build:
-	md5sum -c md5sums.txt
+SOP_IMPL = sqop rsop gosop pgpainless-cli
+SOP = $(firstword $(foreach cmd,$(SOP_IMPL),$(wildcard /usr/bin/$(cmd))) false)
+
+SIGNER_KEYRING = /usr/share/keyrings/debian-keyring.gpg
+ARCHIVE_CERTS = grml-archive-automatic-*.pgp
+ARCHIVE_CERTS_SIGS = $(wildcard keyrings/*.pgp.asc)
+ARCHIVE_KEYRING = grml-archive-keyring.pgp
+
+override_dh_auto_build: $(ARCHIVE_CERTS_SIGS)
+	@echo $(ARCHIVE_CERTS_SIGS)
+	cat keyrings/$(ARCHIVE_CERTS) | \
+	  $(SOP) armor >keyrings/$(ARCHIVE_KEYRING)
 
 # package should work also on older releases like lenny, which
 # don't have support for xz yet
 override_dh_builddeb:
 	dh_builddeb -- -Zgzip
+
+keyrings/%.asc: keyrings/%
+	$(SOP) verify $@ $(SIGNER_KEYRING) <keyrings/$*
+
+.PHONY: $(ARCHIVE_CERTS_SIGS)
 
 %:
 	dh $@
