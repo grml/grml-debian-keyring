@@ -1,0 +1,15 @@
+grml-keyring (2025.02.24) unstable; urgency=medium
+
+  This package now installs an APT sources configuration file.
+  It may conflict with your pre-existing configuration, and APT may complain
+  like this:
+
+    $ apt update
+    E: Conflicting values set for option Signed-By regarding source
+       http://deb.grml.org/ grml-testing: ...
+    E: The list of sources could not be read.
+
+  If this is the case, please delete your old configuration for
+  deb.grml.org.
+
+ -- Chris Hofstaedtler <ch@grml.org>  Mon, 24 Feb 2025 09:27:44 +0100
