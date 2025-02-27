@@ -15,7 +15,7 @@ Vcs-Browser: https://github.com/grml/grml-keyring
 X-Style: black
 
 Package: grml-keyring
-Priority: important
+Priority: optional
 Architecture: all
 Depends:
  ${misc:Depends},
