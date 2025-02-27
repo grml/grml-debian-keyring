@@ -1,3 +1,2 @@
-apt.sources/grml.sources usr/share/grml-keyring
 keyrings/grml-archive-keyring.pgp usr/share/keyrings
 origins etc/dpkg
