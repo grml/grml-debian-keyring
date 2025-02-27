@@ -1,3 +1,9 @@
+grml-keyring (2025.02.27) unstable; urgency=medium
+
+  * [66b38a3] Set Priority: optional for Debian (Closes: #1098936)
+
+ -- Chris Hofstaedtler <ch@grml.org>  Thu, 27 Feb 2025 13:34:51 +0100
+
 grml-keyring (2025.02.24) unstable; urgency=medium
 
   * [9b145f3] Install /etc/apt/sources.list.d/grml.sources
