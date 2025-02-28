@@ -26,5 +26,6 @@ Provides:
 Breaks:
  grml-debian-keyring (<< 2024.12.08),
 Description: OpenPGP certificates used by the Grml project
- The Grml repository digitally signs its archive Release files. This package
- contains the OpenPGP certificates used for that repository.
+ The Grml repository digitally signs its archive Release files.
+ This package contains the OpenPGP certificates used for that repository,
+ as well as a sources.list setup for usage with apt(8).
