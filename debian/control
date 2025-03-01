@@ -23,8 +23,21 @@ Replaces:
  grml-debian-keyring (<< 2024.12.08),
 Provides:
  grml-debian-keyring,
+Suggests:
+ grml-apt-source
 Breaks:
  grml-debian-keyring (<< 2024.12.08),
 Description: OpenPGP certificates used by the Grml project
  The Grml repository digitally signs its archive Release files. This package
  contains the OpenPGP certificates used for that repository.
+
+Package: grml-apt-source
+Priority: optional
+Architecture: all
+Depends:
+ ${misc:Depends},
+Recommends:
+ grml-keyring
+Description: The Grml Repository Sources
+ The Grml Repository Sources. This package contains the deb822-style
+ sources file to add the Grml Repository.
