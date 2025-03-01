@@ -23,7 +23,7 @@ Replaces:
  grml-debian-keyring (<< 2024.12.08),
 Provides:
  grml-debian-keyring,
-Recommends:
+Suggests:
  grml-apt-source
 Breaks:
  grml-debian-keyring (<< 2024.12.08),
@@ -36,6 +36,8 @@ Priority: optional
 Architecture: all
 Depends:
  ${misc:Depends},
+Recommends:
+ grml-keyring
 Description: The Grml Repository Sources
  The Grml Repository Sources. This package contains the deb822-style
- sources file.
+ sources file to add the Grml Repository.
